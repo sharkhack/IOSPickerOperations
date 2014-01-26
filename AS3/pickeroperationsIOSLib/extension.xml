@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.9">
+    <id>com.azer.IOSPickerOperations</id>
+    <versionNumber>1.0.1</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libpickeroperations.a</nativeLibrary>
+               	<initializer>ExtInitializer</initializer>
+                <finalizer>ExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>
