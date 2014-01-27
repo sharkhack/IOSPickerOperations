@@ -7,6 +7,8 @@ Air Native Extension for mobile camera and gallery features (IOS picker and save
 
 - Save compressed BitmapData (byte array) to camera roll (iOS photo library)
 
+- This ane fixes camera and cameraroll (pick or save) memory leak problem.
+
 It has been developed by Azer Bulbul
 
 
