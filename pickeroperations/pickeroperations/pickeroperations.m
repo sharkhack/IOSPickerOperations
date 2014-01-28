@@ -428,9 +428,9 @@ FREObject writeCompressedImageToLibrary(FREContext ctx, void* funcData, uint32_t
 void ContextInitializer(void* extData, const uint8_t* ctxType, FREContext ctx,
 						uint32_t* numFunctionsToTest, const FRENamedFunction** functionsToSet) {
     
-    *numFunctionsToTest = 15;
+    *numFunctionsToTest = 8;
     
-	FRENamedFunction* func = (FRENamedFunction*) malloc(sizeof(FRENamedFunction) * 15);
+	FRENamedFunction* func = (FRENamedFunction*) malloc(sizeof(FRENamedFunction) * 8);
 	func[0].name = (const uint8_t*) "isAvailablePicker";
 	func[0].functionData = NULL;
     func[0].function = &isAvailablePicker;
